@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T01:17:34.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="DoFuS4g96Hsyhe7dQyKh" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-28T00:23:27.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="wwl0gzdpKf0VaGeHxLb3" version="21.7.5" type="github" pages="2">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
-    <mxGraphModel dx="1430" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1745" y="-310" width="625" height="500" as="geometry" />
+          <mxGeometry x="1745" y="-130" width="625" height="320" as="geometry" />
         </mxCell>
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="990" y="30" width="860" height="270" as="geometry" />
@@ -205,9 +205,6 @@
             <mxPoint x="-112" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="esG76llQxSXZ_1Z8Yb8w-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;dashed=1;" parent="1" source="esG76llQxSXZ_1Z8Yb8w-57" target="esG76llQxSXZ_1Z8Yb8w-73" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-57" value="SharePoint List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="1720" y="40" width="120" height="80" as="geometry" />
         </mxCell>
@@ -265,19 +262,6 @@
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-70" value="&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Trigger: When a new event is created in Office 365 Calendar&lt;br&gt;&lt;br&gt;Initialize Variables:&lt;br&gt;- EventStartTime&lt;br&gt;- EventEndTime&lt;br&gt;- EventDuration&lt;br&gt;- EventDescription&lt;br&gt;- TransformedData&lt;br&gt;&lt;br&gt;Actions:&lt;br&gt;1. Set EventStartTime to the Start Time from the trigger output.&lt;br&gt;2. Set EventEndTime to the End Time from the trigger output.&lt;br&gt;3. Calculate EventDuration as the difference between EventEndTime and EventStartTime.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;4. Clean up EventDescription to remove unwanted formatting.&lt;br&gt;5. Extract relevant information from EventDescription.&lt;br&gt;6. Format EventStartTime and EventEndTime as needed.&lt;br&gt;7. Enrich the data with additional information if required.&lt;br&gt;8. Handle errors and exceptions as needed.&lt;br&gt;9. Create item in SharePoint List:&lt;br&gt;&amp;nbsp;&amp;nbsp; - Site Address: Your SharePoint site URL&lt;br&gt;&amp;nbsp;&amp;nbsp; - List Name: Your SharePoint list name&lt;br&gt;&amp;nbsp;&amp;nbsp; - Map fields in the SharePoint list to the corresponding values in TransformedData.&lt;br&gt;&lt;br&gt;End of Flow&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;perimeterSpacing=0;rounded=0;glass=0;shadow=0;fillColor=default;strokeColor=default;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
           <mxGeometry x="1005" y="-820" width="480" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="esG76llQxSXZ_1Z8Yb8w-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="esG76llQxSXZ_1Z8Yb8w-73" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2260" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esG76llQxSXZ_1Z8Yb8w-72" value="&lt;font face=&quot;Times New Roman&quot;&gt;Display Data&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="esG76llQxSXZ_1Z8Yb8w-71" vertex="1" connectable="0">
-          <mxGeometry x="-0.6737" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esG76llQxSXZ_1Z8Yb8w-73" value="MS Planner&lt;br&gt;Schedule View" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="-280" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esG76llQxSXZ_1Z8Yb8w-76" target="esG76llQxSXZ_1Z8Yb8w-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -295,8 +279,8 @@
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-78" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;100%&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1475" y="-10" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="esG76llQxSXZ_1Z8Yb8w-79" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;Industry Choice&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1735" y="-340" width="150" height="40" as="geometry" />
+        <mxCell id="esG76llQxSXZ_1Z8Yb8w-79" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;Industry Choice - Designs 1, 2 and 3 merged together&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1732.5" y="-160" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esG76llQxSXZ_1Z8Yb8w-81" target="esG76llQxSXZ_1Z8Yb8w-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -316,7 +300,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CpZDJtk9kDaJqnkIU-ka" name="Designs">
-    <mxGraphModel dx="7763" dy="4940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4307" dy="3020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
