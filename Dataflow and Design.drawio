@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T22:57:50.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="w8fW9LHkChD_7xP4VJw9" version="22.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-04T23:34:05.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-7MEtPWEz0i_YVOmR-Xw" version="22.0.2" type="github" pages="2">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
-    <mxGraphModel dx="1195" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ugQuApz_UN26mRdD0D6O-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="710" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="710" width="590" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="810" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="580" width="1180" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="esG76llQxSXZ_1Z8Yb8w-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1745" y="-130" width="625" height="320" as="geometry" />
         </mxCell>
@@ -501,6 +513,9 @@
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;Each Calendar gets its own flow&lt;br&gt;Each flow goes into the main list&lt;br&gt;Main List is the homepage (design 1)&lt;br&gt;Main list then gets filtered into two sections&lt;br&gt;Section 1) Each Calendar filtered into its own list - To be displayed in their own page&lt;br&gt;Specific Calendar Lists also get filtered into Power BI&#39;s webpage display&lt;br&gt;Section 2) Staff members get filtered to a Staff List&lt;br&gt;API gets called and data put into Staff List&lt;br&gt;Staff List gets filtered into the Booking system&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1885" y="380" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;Green: Iteration 1&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Yellow: Iteration 2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Red: Iteration 3&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="2290" y="710" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
