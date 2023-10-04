@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T22:09:30.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="kNch-n4BhF8psXLVpmiw" version="22.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-04T22:57:50.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="w8fW9LHkChD_7xP4VJw9" version="22.0.2" type="github" pages="2">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
-    <mxGraphModel dx="957" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,6 +498,9 @@
         </mxCell>
         <mxCell id="Zv_uD-C5grO1d20x45zx-23" value="&lt;font&gt;Each Calendar will need its own flow made&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1345" y="398" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;Each Calendar gets its own flow&lt;br&gt;Each flow goes into the main list&lt;br&gt;Main List is the homepage (design 1)&lt;br&gt;Main list then gets filtered into two sections&lt;br&gt;Section 1) Each Calendar filtered into its own list - To be displayed in their own page&lt;br&gt;Specific Calendar Lists also get filtered into Power BI&#39;s webpage display&lt;br&gt;Section 2) Staff members get filtered to a Staff List&lt;br&gt;API gets called and data put into Staff List&lt;br&gt;Staff List gets filtered into the Booking system&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="380" width="430" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
