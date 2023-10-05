@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T23:34:05.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-7MEtPWEz0i_YVOmR-Xw" version="22.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-05T02:46:40.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="dNbRWm2JfCQdA4sOxcct" version="22.0.2" type="github" pages="2">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
     <mxGraphModel dx="1434" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -516,6 +516,12 @@
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;Green: Iteration 1&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Yellow: Iteration 2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Red: Iteration 3&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" vertex="1" parent="1">
           <mxGeometry x="2290" y="710" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Note: Power BI is not possible anymore, I thought there was a way to make it display the monthly calendar however this does not seem to be the case&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1068" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQuApz_UN26mRdD0D6O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.528;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Shvq_RPoQSLqvGxHfgvR-25" target="ugQuApz_UN26mRdD0D6O-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
