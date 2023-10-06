@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T00:29:06.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="5vbsdp2ofkQWpcRzJNhs" version="22.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-06T02:48:33.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="Th3D_dSVx018R22OcyQB" version="22.0.3" type="github" pages="2">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
     <mxGraphModel dx="1434" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ugQuApz_UN26mRdD0D6O-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1810" y="810" width="680" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="1ivpVrM79IDX2mpPrttP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="1ivpVrM79IDX2mpPrttP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1810" y="660" width="260" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -527,7 +527,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CpZDJtk9kDaJqnkIU-ka" name="Designs">
-    <mxGraphModel dx="3718" dy="2636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4435" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1903,7 +1903,7 @@
           <mxGeometry x="335" y="3200.14" width="790" height="540" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-454" value="NOC Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="405" y="3270.14" width="485" height="400" as="geometry" />
+          <mxGeometry x="410" y="3310" width="485" height="400" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-455" value="Home Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="350" y="3165.14" width="70" height="30" as="geometry" />
@@ -1938,7 +1938,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-464" value="Booking Window" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="900" y="3270.14" width="180" height="220" as="geometry" />
+          <mxGeometry x="910" y="3310" width="180" height="220" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-466" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="1190" y="2540" width="1070" height="540" as="geometry" />
@@ -2012,7 +2012,7 @@
           <mxGeometry x="201.25" y="80.1400000000001" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-490" value="&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;Booking Window is&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;acting like a Create Event&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="920" y="3450.14" width="140" height="40" as="geometry" />
+          <mxGeometry x="930" y="3490" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-491" value="&lt;div&gt;Note: The choice to use Dropdowns&amp;nbsp;&lt;/div&gt;&lt;div&gt;here is to make sure that there aren&#39;t&amp;nbsp;&lt;/div&gt;&lt;div&gt;going to be any mistakes for&lt;/div&gt;&lt;div&gt;Names/Email entering&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textDirection=ltr;horizontal=1;fontStyle=2;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="2035" y="3320" width="200" height="70" as="geometry" />
@@ -2095,7 +2095,7 @@
           <mxGeometry x="2050.25" y="3010" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-517" value="Note: These calendars would be more of a &quot;staff&quot; view so it shows all staff members and what they are working on vs the &quot;Overview&quot; ones where it only shows the department" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="617.5" y="3600" width="272.5" height="70" as="geometry" />
+          <mxGeometry x="622.5" y="3639.86" width="272.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-521" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;endArrow=classic;endFill=1;" parent="1" target="YvVbSKOKvc74h1KSM61_-536" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2378,6 +2378,57 @@
         </mxCell>
         <mxCell id="YvVbSKOKvc74h1KSM61_-591" value="&lt;h1&gt;Design Seven&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Current design choice of Stephen and Jodi. Fuses together design One, Two and Three to allow for a High Level overview, Easy Use and Depth&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="1190" y="3230" width="315" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rd7x7Y3k2b_9lYzFkqJg-14" target="rd7x7Y3k2b_9lYzFkqJg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1850" width="590" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-15" value="Free NOC Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1890" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1890" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-17" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1890" width="415" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-18" value="Free WAN Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1970" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-19" value="Free LAN Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2050" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="1970" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-21" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="1970" width="415" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="2050" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-23" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="386.5" y="2050" width="415" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2580" width="46" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-27" value="Note: Changed to Ghant Charts instead" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2278" y="2885.0700000000006" width="272.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-29" value="Free NOC Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="3235" width="67.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-31" value="16/50" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="3235" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-32" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="3236" width="141.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rd7x7Y3k2b_9lYzFkqJg-28" value="%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="3235" width="415" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
