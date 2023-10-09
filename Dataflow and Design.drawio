@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T11:10:07.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="o4NesaL70n5zZGC-3rON" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-09T11:10:38.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="nNbc-M2eNEWkhRczhHZX" version="22.0.4" type="github" pages="5">
   <diagram name="Dataflow" id="lKqupc52I34eG3pem_ss">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2632,6 +2632,14 @@
         <mxCell id="4RK4Rh18X7SLmyP44KKn-28" value="&lt;h1&gt;Flow 3&lt;br&gt;&lt;/h1&gt;&lt;div&gt;It was found after running Flow 2 that &quot;People&quot; is a String not an array. Compose uses a split expression to form an array which will hopefully fix this error. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is the midway point for this Iteration. From here comes Power BI&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="880" width="190" height="170" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4VjkjjuL963j39FCO9PS" name="Iteration 2 - Department List - Part B">
+    <mxGraphModel dx="2074" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
