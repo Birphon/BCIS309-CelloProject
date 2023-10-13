@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:04:19.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="jlFmGy6giSJkf-86ppj2" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:05:48.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="EGpRD9-rllh2tEUzQwpI" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2434,90 +2434,93 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 1 - Calendar to List" id="WFiai7I1usadS2Rd8nC8">
-    <mxGraphModel dx="830" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="280" y="470" width="440" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-4" value="Flow 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-4" value="Flow 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="190" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-6" target="mV_Ktoh9yPTGbaPLCbrH-7">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-6" target="mV_Ktoh9yPTGbaPLCbrH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-6" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-6" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="82" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-7" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-7" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="280" y="82" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-13" value="Flow 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-13" value="Flow 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="190" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-15" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-15" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="482" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-19" target="mV_Ktoh9yPTGbaPLCbrH-21">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-19" target="mV_Ktoh9yPTGbaPLCbrH-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-19" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-19" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="320" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-21" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-21" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="560" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-15" target="mV_Ktoh9yPTGbaPLCbrH-23">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-15" target="mV_Ktoh9yPTGbaPLCbrH-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-27" value="&lt;h1&gt;Flow 1&lt;br&gt;&lt;/h1&gt;&lt;p&gt;This was a very basic flow, not only used to understand the connection between Calendar, Automate and List but also seeing what data can be pulled&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Data that was pulled:&lt;/div&gt;&lt;div&gt;Title, Start Date, End Date, Body, Invitees&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-27" value="&lt;h1&gt;Flow 1&lt;br&gt;&lt;/h1&gt;&lt;p&gt;This was a very basic flow, not only used to understand the connection between Calendar, Automate and List but also seeing what data can be pulled&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Data that was pulled:&lt;/div&gt;&lt;div&gt;Title, Start Date, End Date, Body, Invitees&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="330" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-24" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-24" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="280" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-28" value="&lt;h1&gt;Flow 2&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Flow 2 become an upgrade of Flow 1, using the understanding from Flow 1 and some more research I was able to find that a Loop can be generated based on a value. This Loop then has an internal condition which is creating the list entry if possible otherwise it voids&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This ends up being the final flow design needed to go between Calendar and Main List&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-28" value="&lt;h1&gt;Flow 2&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Flow 2 become an upgrade of Flow 1, using the understanding from Flow 1 and some more research I was able to find that a Loop can be generated based on a value. This Loop then has an internal condition which is creating the list entry if possible otherwise it voids&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This ends up being the final flow design needed to go between Calendar and Main List&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="330" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="520" y="989" width="440" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-31" value="Flow 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-31" value="Flow 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="430" y="919" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-32" value="GetCalendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-32" value="GetCalendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="280" y="1001" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-34" target="mV_Ktoh9yPTGbaPLCbrH-35">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-34" target="mV_Ktoh9yPTGbaPLCbrH-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-34" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-34" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="560" y="1039" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-35" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-35" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="800" y="1039" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-32" target="mV_Ktoh9yPTGbaPLCbrH-30">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-32" target="mV_Ktoh9yPTGbaPLCbrH-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-37" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-37" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="520" y="959" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-40" target="mV_Ktoh9yPTGbaPLCbrH-32">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mV_Ktoh9yPTGbaPLCbrH-40" target="mV_Ktoh9yPTGbaPLCbrH-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-40" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-40" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="1001" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-43" value="&lt;h1&gt;Flow 3&lt;br&gt;&lt;/h1&gt;&lt;div&gt;In&amp;nbsp; Flow 2&#39;s description I mentioned that it was t he final design. Though not much has changed here in terms of what is happening a new data flow has been designed which allows for smarter translation from Calendar to Main List. In the Condition I was creating a setup that took the Calendar Origin&#39;s ID and transformed it into the Text form of the Calendar however this proved to be inefficient since it wasn&#39;t the Calendar ID that I was pulling but rather the Tasks ID.&lt;/div&gt;&lt;div&gt;After some more research (and a wonderful Microsoft bug) I managed to use one of Automates own Trigger&#39;s to give me the Calendar Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The Calendar Name is needed to allow for transferring data from the Main List to the specific Calendar list&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iteration 2 is the creation of the Department List.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Note: Automatic pulling still needs to be tested. This will be part of &quot;Testing and Documentation&quot; iteration&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="mV_Ktoh9yPTGbaPLCbrH-43" value="&lt;h1&gt;Flow 3&lt;br&gt;&lt;/h1&gt;&lt;div&gt;In&amp;nbsp; Flow 2&#39;s description I mentioned that it was t he final design. Though not much has changed here in terms of what is happening a new data flow has been designed which allows for smarter translation from Calendar to Main List. In the Condition I was creating a setup that took the Calendar Origin&#39;s ID and transformed it into the Text form of the Calendar however this proved to be inefficient since it wasn&#39;t the Calendar ID that I was pulling but rather the Tasks ID.&lt;/div&gt;&lt;div&gt;After some more research (and a wonderful Microsoft bug) I managed to use one of Automates own Trigger&#39;s to give me the Calendar Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The Calendar Name is needed to allow for transferring data from the Main List to the specific Calendar list&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iteration 2 is the creation of the Department List.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Note: Automatic pulling still needs to be tested. This will be part of &quot;Testing and Documentation&quot; iteration&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="1200" width="330" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="STacwX2vYcxMwYRrkSXH-2" value="The Calendar is my own personal &quot;Testing&quot; Calendar&lt;br&gt;When deployment happens this just needs to be changed. Will be explained in documentation " style="whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="82" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 2 - Department List - Part A" id="LnjzS1s4rEQYcw_zNia8">
-    <mxGraphModel dx="1432" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
