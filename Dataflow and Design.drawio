@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:05:48.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="EGpRD9-rllh2tEUzQwpI" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:14:32.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="q_ejDkdOVYB2PLTD0M0l" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2639,7 +2639,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 2 - Department List - Part B" id="rSd5sV8Vw0vwyc4MDNPm">
-    <mxGraphModel dx="1418" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2806,15 +2806,66 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 3 - API" id="0Fj1cr79-AlPecyThJyM">
-    <mxGraphModel dx="1418" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-1" target="g-w7CI4zYoQqsqjHLiyN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-1" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-2" value="Flow 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-3" value="&lt;h1&gt;Flow 1&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A simple flow to pull the HTTP trigger and see what comes from the link.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-4" target="g-w7CI4zYoQqsqjHLiyN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-4" target="g-w7CI4zYoQqsqjHLiyN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-4" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-5" value="Flow 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-6" target="g-w7CI4zYoQqsqjHLiyN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-6" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-7" target="g-w7CI4zYoQqsqjHLiyN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-7" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-8" value="HTTP Pull" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-9" value="HTTP Pull" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-1" value="Todays Date" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-2" value="Todays Date -&amp;gt; 3month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-3" value="&lt;h1&gt;Flow 2&lt;br&gt;&lt;/h1&gt;&lt;p&gt;This flow allows for automatic changing of days. Discussions will need to happen with Industry Supervisors to know when they want the End Date to be. The Start Date is defaulting to Today Date. End Date is taking Start Date, going 3 months into the future and finding the end date of that month.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="320" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 4 - Design" id="A7JUq6Ov1nJaCj73xFvI">
-    <mxGraphModel dx="1432" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
