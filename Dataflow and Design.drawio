@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:20:48.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="inD9bhhgelxtl1vSOs4F" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:47:32.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="xaa0rrjBV4C2uXEiK4Oa" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2805,7 +2805,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Iteration 3 - API" id="0Fj1cr79-AlPecyThJyM">
+  <diagram name="Iteration 3 - API &amp; Booking" id="0Fj1cr79-AlPecyThJyM">
     <mxGraphModel dx="1430" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -2985,8 +2985,59 @@
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-21" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1360" y="920" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-23" value="If Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-32" target="R_Rwk-GBP0Vv9akDaeAB-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-32" value="Item Created / Modified" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-33" value="Flow 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-34" value="MainList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1320" width="700" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1340" width="285" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-48" target="R_Rwk-GBP0Vv9akDaeAB-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-48" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-50" target="R_Rwk-GBP0Vv9akDaeAB-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-50" value="Get Items" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-52" target="R_Rwk-GBP0Vv9akDaeAB-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-52" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-53" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-55" value="&lt;h1&gt;Flow 4&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Flow 4 is a new flow that takes data, in this case Name StartDate and EndDate from the MainList and makes a New List called staff list. Has the same Check as Flow 3 to avoid dupe items - though a potential conflict might be on modification of Tasks as I will have to look into this.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1520" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-56" value="If Yes, in API List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1360" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-57" value="From API List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="960" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-58" value="From Staff List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-59" value="&amp;nbsp;In Staff List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1420" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
