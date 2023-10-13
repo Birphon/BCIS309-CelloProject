@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:16:03.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="hFHofrC0h-4TtuGaPJgV" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:20:48.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="inD9bhhgelxtl1vSOs4F" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2806,10 +2806,16 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 3 - API" id="0Fj1cr79-AlPecyThJyM">
-    <mxGraphModel dx="830" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="880" width="700" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="900" width="285" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="g-w7CI4zYoQqsqjHLiyN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-1" target="g-w7CI4zYoQqsqjHLiyN-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -2886,6 +2892,101 @@
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-3" value="&lt;h1&gt;Flow 2&lt;br&gt;&lt;/h1&gt;&lt;p&gt;This flow allows for automatic changing of days. Discussions will need to happen with Industry Supervisors to know when they want the End Date to be. The Start Date is defaulting to Today Date. End Date is taking Start Date, going 3 months into the future and finding the end date of that month.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-7" target="R_Rwk-GBP0Vv9akDaeAB-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="960" />
+              <mxPoint x="200" y="940" />
+              <mxPoint x="230" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-7" target="R_Rwk-GBP0Vv9akDaeAB-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="960" />
+              <mxPoint x="200" y="980" />
+              <mxPoint x="230" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-7" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-8" value="Flow 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-10" target="R_Rwk-GBP0Vv9akDaeAB-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="920" />
+              <mxPoint x="280" y="940" />
+              <mxPoint x="320" y="940" />
+              <mxPoint x="320" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-10" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-12" target="R_Rwk-GBP0Vv9akDaeAB-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1000" />
+              <mxPoint x="280" y="980" />
+              <mxPoint x="320" y="980" />
+              <mxPoint x="320" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-12" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-13" target="R_Rwk-GBP0Vv9akDaeAB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-13" value="HTTP Pull" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-14" value="Todays Date" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-15" value="Todays Date -&amp;gt; 3month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1060" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-16" value="&lt;h1&gt;Flow 3&lt;br&gt;&lt;/h1&gt;&lt;p&gt;This flow develops on Flow 2, Parsing the JSON data to feed into the Microsoft List while also having a check in place to make sure duplicate data is not being added&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-17" target="R_Rwk-GBP0Vv9akDaeAB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-17" value="JSON Parse" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="560" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-18" target="R_Rwk-GBP0Vv9akDaeAB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-18" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="760" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-19" target="R_Rwk-GBP0Vv9akDaeAB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-19" value="Get Items" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="960" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-20" target="R_Rwk-GBP0Vv9akDaeAB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-20" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-21" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-23" value="If Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="980" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
