@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:56:52.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="xJbeiDEfrks_gMrWzGBc" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:58:26.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="fbyY4anv6dzDz0I9jTnB" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2639,14 +2639,14 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 2 - Department List - Part B" id="rSd5sV8Vw0vwyc4MDNPm">
-    <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="N_3ZwBa_aW2kJX5DXvVe-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="305" width="1215" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="p-4InJAjBx9HSWkacMHp-1" value="Flow 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="p-4InJAjBx9HSWkacMHp-1" value="Flow 4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Envx3Z-4t9VSus2PSiBs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" parent="1" source="Envx3Z-4t9VSus2PSiBs-1" target="Envx3Z-4t9VSus2PSiBs-2" edge="1">
@@ -2791,7 +2791,7 @@
           <mxGeometry x="305" y="290" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="79qPhdedh1SxduyZ4aMa-3" value="&lt;h1&gt;Power Apps&lt;/h1&gt;&lt;p&gt;A powerapps setup has been made with a rather barebones setup.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="40" y="760" width="360" height="240" as="geometry" />
+          <mxGeometry x="40" y="760" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KTUdJX7ogaQGNX1hG1wA-2" value="&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;Notes - 10/11:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;Power BI:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Download Power BI Desktop app to create the Power BI dashboard, will need to look into seeing if it saves to web. This Power BI Dash will be created onto the Flow account so if editing needs to be done it will need be logged into that account and have Power BI Desktop download (Free app)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Added Duation to the Testing List, Working on calculation between Start and End Time&#39;s for the Power BI Gantt Chart display.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Have to convert Start and End times to ISO 8601 format for MS to do the calculation. ISO 8601 format = YYYY/MM/DD HH:MM:SS&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - Many tries were attempted at doing this&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - Took too long to develop and ran into too many issues&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Scrapped this for a Tick based system.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - A lot of outdated google results&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - A lot tried to compact it into one Expression&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - Took an online expression as a base and expanded it out instead of all individual parts&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&amp;nbsp; - Lots of commenting will need to be done&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Attempt to put Tick based Duration into Gantt Chart&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;-- Power BI potentially has to be scrapped due to only Desktop Application being able to edit and refresh data&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Will need to contact Jodi and Stephen about this&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;Research:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Researching some more potential usecases to replace the Power BI dashboard&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;- Potentially Power Apps&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=5;spacingBottom=0;spacingLeft=3;" parent="1" vertex="1">
           <mxGeometry x="10" y="-760" width="550" height="390" as="geometry" />
@@ -2802,11 +2802,14 @@
         <mxCell id="4gZ64dBeGq3Uf49SUzbZ-3" value="14 min in first video" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="820" y="390" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1zQiWZXwHAFFSTkUdmgO-1" value="&lt;h1&gt;Paused&lt;/h1&gt;&lt;p&gt;This feature was a &quot;nice to have&quot; feature, which I had slipped my mind when developing my iterations so work on this iteration will be paused and resummed at a later date.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="360" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 3 - API &amp; Booking" id="0Fj1cr79-AlPecyThJyM">
-    <mxGraphModel dx="691" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2822,7 +2825,7 @@
         <mxCell id="g-w7CI4zYoQqsqjHLiyN-1" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g-w7CI4zYoQqsqjHLiyN-2" value="Flow 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-2" value="Flow 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g-w7CI4zYoQqsqjHLiyN-3" value="&lt;h1&gt;Flow 1&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A simple flow to pull the HTTP trigger and see what comes from the link.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -2849,7 +2852,7 @@
         <mxCell id="g-w7CI4zYoQqsqjHLiyN-4" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g-w7CI4zYoQqsqjHLiyN-5" value="Flow 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="g-w7CI4zYoQqsqjHLiyN-5" value="Flow 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g-w7CI4zYoQqsqjHLiyN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-w7CI4zYoQqsqjHLiyN-6" target="g-w7CI4zYoQqsqjHLiyN-8">
@@ -2914,7 +2917,7 @@
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-7" value="Schedule" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="920" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-8" value="Flow 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-8" value="Flow 3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-10" target="R_Rwk-GBP0Vv9akDaeAB-13">
@@ -2991,7 +2994,7 @@
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-32" value="Item Created / Modified" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="1360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-33" value="Flow 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-33" value="Flow 4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="1280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-34" value="MainList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -3048,7 +3051,7 @@
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-62" value="API List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="1860" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-63" value="Flow 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-63" value="Flow 5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="40" y="1760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-64" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
