@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:47:32.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="xaa0rrjBV4C2uXEiK4Oa" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:55:41.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="fTLFKxjI6Aw6X6mc9Yuv" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
     <mxGraphModel dx="2074" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2806,7 +2806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Iteration 3 - API &amp; Booking" id="0Fj1cr79-AlPecyThJyM">
-    <mxGraphModel dx="1430" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3024,8 +3024,8 @@
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-53" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="840" y="1360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-55" value="&lt;h1&gt;Flow 4&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Flow 4 is a new flow that takes data, in this case Name StartDate and EndDate from the MainList and makes a New List called staff list. Has the same Check as Flow 3 to avoid dupe items - though a potential conflict might be on modification of Tasks as I will have to look into this.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1520" width="320" height="120" as="geometry" />
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-55" value="&lt;h1&gt;Flow 4&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Flow 4 is a new flow that takes data, in this case Name StartDate and EndDate from the MainList and makes a New List called staff list. Has the same Check as Flow 3 to avoid dupe items - though a potential conflict might be on modification of Tasks as I will have to look into this. I am also unsure if this loop is needed or not, will find out in the next Flow taking API List (Flow 3) and put it into Staff List (Flow 4)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1520" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-56" value="If Yes, in API List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1360" y="980" width="120" height="30" as="geometry" />
@@ -3038,6 +3038,27 @@
         </mxCell>
         <mxCell id="R_Rwk-GBP0Vv9akDaeAB-59" value="&amp;nbsp;In Staff List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="840" y="1420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_Rwk-GBP0Vv9akDaeAB-61" target="R_Rwk-GBP0Vv9akDaeAB-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-61" value="Item Created / Modified" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-62" value="API List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-63" value="Flow 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-64" value="Create Item" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-65" value="Staff List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R_Rwk-GBP0Vv9akDaeAB-67" value="&lt;h1&gt;Flow 5&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A simple flow to combine flows 3 and 4 together to get ready for the Booking Application that needs to be added&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1920" width="320" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
