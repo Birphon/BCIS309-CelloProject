@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T03:33:51.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="tqrFAvTtnrbW2nAPkGdU" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-18T01:48:30.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="lZFVRO2TQaE7bvUniKqz" version="22.0.4" type="github" pages="7">
   <diagram name="Dataflow" id="rrVdYmr3NLlrSmKYRPJm">
-    <mxGraphModel dx="989" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HG4kmRQo0bUhNEm3dP82-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="HG4kmRQo0bUhNEm3dP82-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1310" y="430" width="510" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="HG4kmRQo0bUhNEm3dP82-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="HG4kmRQo0bUhNEm3dP82-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2070" y="580" width="460" height="500" as="geometry" />
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -397,7 +397,7 @@
         <mxCell id="Zv_uD-C5grO1d20x45zx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Shvq_RPoQSLqvGxHfgvR-9" target="Shvq_RPoQSLqvGxHfgvR-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HG4kmRQo0bUhNEm3dP82-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Shvq_RPoQSLqvGxHfgvR-9" target="Shvq_RPoQSLqvGxHfgvR-25">
+        <mxCell id="HG4kmRQo0bUhNEm3dP82-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Shvq_RPoQSLqvGxHfgvR-9" target="Shvq_RPoQSLqvGxHfgvR-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Shvq_RPoQSLqvGxHfgvR-9" value="Delivery" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
@@ -518,8 +518,8 @@
         <mxCell id="Zv_uD-C5grO1d20x45zx-20" value="Flow" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="1520" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zv_uD-C5grO1d20x45zx-23" value="&lt;font&gt;Each Calendar will need its own flow made&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="1345" y="398" width="230" height="30" as="geometry" />
+        <mxCell id="Zv_uD-C5grO1d20x45zx-23" value="&lt;font&gt;Each Calendar will need its own flow made - copy and paste the flow&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="400" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;Each Calendar gets its own flow&lt;br&gt;Each flow goes into the main list&lt;br&gt;Main List is the homepage (design 1)&lt;br&gt;Main list then gets filtered into two sections&lt;br&gt;Section 1) Each Calendar filtered into its own list - To be displayed in their own page&lt;br&gt;Specific Calendar Lists also get filtered into Power BI&#39;s webpage display&lt;br&gt;Section 2) Staff members get filtered to a Staff List&lt;br&gt;API gets called and data put into Staff List&lt;br&gt;Staff List gets filtered into the Booking system&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1885" y="380" width="430" height="140" as="geometry" />
@@ -532,6 +532,84 @@
         </mxCell>
         <mxCell id="ugQuApz_UN26mRdD0D6O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.528;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Shvq_RPoQSLqvGxHfgvR-25" target="ugQuApz_UN26mRdD0D6O-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-98" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="1520" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="1360" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="1280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1440" width="545" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1360" width="545" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-104" target="S2NctdnPABpntEx0oNJ9-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-104" value="Calendar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-106" target="S2NctdnPABpntEx0oNJ9-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-106" value="Flow" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-111" target="S2NctdnPABpntEx0oNJ9-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-111" target="S2NctdnPABpntEx0oNJ9-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-111" target="S2NctdnPABpntEx0oNJ9-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-111" target="S2NctdnPABpntEx0oNJ9-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-111" value="Main List" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1995" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-113" target="S2NctdnPABpntEx0oNJ9-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-113" value="Flow" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-115" target="S2NctdnPABpntEx0oNJ9-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-115" value="API" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-119" target="S2NctdnPABpntEx0oNJ9-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-119" target="S2NctdnPABpntEx0oNJ9-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="S2NctdnPABpntEx0oNJ9-119" target="S2NctdnPABpntEx0oNJ9-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-119" value="Booking" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-120" value="Home Page" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-121" value="NSE Webpage" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="1460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-122" value="Power BI Webpage" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="1540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S2NctdnPABpntEx0oNJ9-125" value="&lt;h1&gt;Redesign of Data Flow&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Had a potential idea for a redesign of the data flow, reducing the amount of flows and lists needed to create the end product. This redesign does not work due to SharePoint being unable to filter in the 1 list&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1835" y="1530" width="280" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
